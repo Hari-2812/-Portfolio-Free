@@ -48,7 +48,7 @@ export default function Contact() {
 
       <div className="mt-8 space-y-2 text-slate-300">
         <p>Email: hello@codeforge.dev</p>
-        <a href="https://wa.me/9361876698" target="_blank" rel="noreferrer" className="inline-block rounded-full border border-green-500/70 px-4 py-2 text-green-300">
+        <a href="https://wa.me/15550001111" target="_blank" rel="noreferrer" className="inline-block rounded-full border border-green-500/70 px-4 py-2 text-green-300">
           Chat on WhatsApp
         </a>
       </div>

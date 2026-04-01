@@ -5,15 +5,16 @@ export const developers = [
   {
     id: 'dev1',
     name: 'Aarav Malhotra',
-    role: 'Lead Frontend Architect',
+    role: 'Full Stack MERN Developer',
     image: 'https://randomuser.me/api/portraits/men/32.jpg',
     fallbackImage: developerFallback,
     about:
       'I architect high-converting, animation-rich product experiences with scalable component systems. I lead interaction design, visual systems, and frontend performance delivery at CodeForge.',
     skills: ['React', 'TypeScript', 'Framer Motion', 'Design Systems', 'Performance'],
-    projects: ['Textile Commerce Suite', 'EduLMS Platform', 'Smart Room Booking'],
+    projects: ['LMS System', 'Textile E-commerce', 'Room Booking', 'Chapati Stall Website'],
     achievements: ['Best UX Delivery 2025', '50+ enterprise UI modules', '98+ Lighthouse performance scores'],
-    resumeUrl: '#',
+    resumeUrl: '/resume.pdf',
+    resumeDownloadUrl: '/resume.pdf',
     email: 'aarav@codeforge.dev',
     whatsapp: 'https://wa.me/15551234567',
     github: 'https://github.com/',
@@ -22,17 +23,18 @@ export const developers = [
   {
     id: 'dev2',
     name: 'Nisha Kapoor',
-    role: 'Lead Backend Engineer',
+    role: 'Full Stack MERN Developer',
     image: 'https://randomuser.me/api/portraits/men/45.jpg',
     fallbackImage: 'https://randomuser.me/api/portraits/men/32.jpg',
     about:
       'I engineer resilient API systems, clean architecture, and observability-driven infrastructure for modern products. My work ensures CodeForge solutions remain secure, stable, and deployment-ready.',
     skills: ['Node.js', 'Express', 'MongoDB', 'System Design', 'DevOps'],
-    projects: ['Chapati Commerce Platform', 'Textile Commerce Suite', 'EduLMS Platform'],
+    projects: ['LMS System', 'Textile E-commerce', 'Room Booking', 'Chapati Stall Website'],
     achievements: ['Zero-downtime API migrations', '40% query optimization gains', 'Audit-ready cloud architecture'],
-    resumeUrl: '#',
+    resumeUrl: '/resume.pdf',
+    resumeDownloadUrl: '/resume.pdf',
     email: 'nisha@codeforge.dev',
-    whatsapp: 'https://wa.me/9361876698',
+    whatsapp: 'https://wa.me/15557654321',
     github: 'https://github.com/',
     linkedin: 'https://linkedin.com/'
   }
