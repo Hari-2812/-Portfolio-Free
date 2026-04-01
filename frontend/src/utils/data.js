@@ -32,7 +32,7 @@ export const developers = [
     achievements: ['Zero-downtime API migrations', '40% query optimization gains', 'Audit-ready cloud architecture'],
     resumeUrl: '#',
     email: 'nisha@codeforge.dev',
-    whatsapp: 'https://wa.me/15557654321',
+    whatsapp: 'https://wa.me/9361876698',
     github: 'https://github.com/',
     linkedin: 'https://linkedin.com/'
   }
