@@ -5,6 +5,8 @@ import Loader from './components/Loader';
 import Navbar from './components/Navbar';
 import ScrollProgressBar from './components/ScrollProgressBar';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
+import Footer from './components/Footer';
+import CustomCursor from './components/CustomCursor';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Dev1 from './pages/Dev1';
@@ -46,12 +48,14 @@ export default function App() {
 
   return (
     <div className="relative">
+      <CustomCursor />
       <ScrollProgressBar />
       <Navbar />
       <main className="relative z-10">
         <AnimatedRoutes />
       </main>
       <FloatingWhatsApp />
+      <Footer />
     </div>
   );
 }
