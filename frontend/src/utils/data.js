@@ -50,7 +50,7 @@ export const projects = [
   },
   {
     title: 'Chapati',
-    image: 'https://picsum.photos/600/400?random=2',
+    image: 'https://supreme-chappathi.vercel.app/',
     fallbackImage: projectFallback,
     description: 'Modern restaurant experience with menu storytelling, conversion funnels, and local SEO.',
     stack: ['React', 'Express', 'MongoDB'],
@@ -59,7 +59,7 @@ export const projects = [
   },
   {
     title: 'LMS',
-    image: 'https://picsum.photos/600/400?random=3',
+    image: 'https://lms-system-1u71.vercel.app/',
     fallbackImage: projectFallback,
     description: 'Enterprise LMS with adaptive assessments, progress tracking, and analytics dashboards.',
     stack: ['React', 'Node.js', 'MongoDB', 'JWT'],
