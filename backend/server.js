@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (_req, res) => {
-  res.json({ status: 'ok', message: 'Freelancer portfolio backend is running.' });
+  res.json({ status: 'ok', message: 'CodeForge backend is running.' });
 });
 
 app.use('/api', contactRoutes);

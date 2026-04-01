@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { developers } from '../utils/data';
 import TiltCard from './TiltCard';
+import SafeImage from './SafeImage';
 
 export default function DeveloperCards() {
   return (
@@ -22,7 +23,7 @@ export default function DeveloperCards() {
                   className="relative"
                 >
                   <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-purple-500 to-cyan-400 blur-sm" />
-                  <img src={dev.image} alt={dev.name} className="relative h-24 w-24 rounded-full object-cover transition duration-500 group-hover:scale-110" />
+                  <SafeImage src={dev.image} fallback={dev.fallbackImage} alt={dev.name} className="relative h-24 w-24 rounded-full object-cover transition duration-500 group-hover:scale-110" />
                 </motion.div>
 
                 <div>
