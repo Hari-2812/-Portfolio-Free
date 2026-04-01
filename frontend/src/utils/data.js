@@ -1,15 +1,21 @@
+const developerFallback = 'https://randomuser.me/api/portraits/men/32.jpg';
+const projectFallback = 'https://picsum.photos/600/400?random=12';
+
 export const developers = [
   {
     id: 'dev1',
     name: 'Aarav Malhotra',
-    role: 'Frontend & Product UX Engineer',
-    image: 'https://via.placeholder.com/320x320?text=Dev+1',
+    role: 'Full Stack MERN Developer',
+    image: 'https://randomuser.me/api/portraits/men/32.jpg',
+    fallbackImage: developerFallback,
     about:
-      'Aarav specializes in high-performance React experiences, animation systems, and conversion-focused user interfaces.',
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'TypeScript'],
-    projects: ['Textile E-commerce Platform', 'LMS System', 'Room Booking Website'],
-    resumeUrl: '#',
-    email: 'aarav@teamfreelance.dev',
+      'I architect high-converting, animation-rich product experiences with scalable component systems. I lead interaction design, visual systems, and frontend performance delivery at CodeForge.',
+    skills: ['React', 'TypeScript', 'Framer Motion', 'Design Systems', 'Performance'],
+    projects: ['LMS System', 'Textile E-commerce', 'Room Booking', 'Chapati Stall Website'],
+    achievements: ['Best UX Delivery 2025', '50+ enterprise UI modules', '98+ Lighthouse performance scores'],
+    resumeUrl: '/resume.pdf',
+    resumeDownloadUrl: '/resume.pdf',
+    email: 'aarav@codeforge.dev',
     whatsapp: 'https://wa.me/15551234567',
     github: 'https://github.com/',
     linkedin: 'https://linkedin.com/'
@@ -17,14 +23,17 @@ export const developers = [
   {
     id: 'dev2',
     name: 'Nisha Kapoor',
-    role: 'Backend & Cloud Systems Engineer',
-    image: 'https://via.placeholder.com/320x320?text=Dev+2',
+    role: 'Full Stack MERN Developer',
+    image: 'https://randomuser.me/api/portraits/men/45.jpg',
+    fallbackImage: 'https://randomuser.me/api/portraits/men/32.jpg',
     about:
-      'Nisha builds secure and scalable Node APIs, robust MongoDB architectures, and production-ready deployment pipelines.',
-    skills: ['Node.js', 'Express', 'MongoDB', 'Redis', 'Docker'],
-    projects: ['Chapati Stall Website', 'Textile E-commerce Platform', 'LMS System'],
-    resumeUrl: '#',
-    email: 'nisha@teamfreelance.dev',
+      'I engineer resilient API systems, clean architecture, and observability-driven infrastructure for modern products. My work ensures CodeForge solutions remain secure, stable, and deployment-ready.',
+    skills: ['Node.js', 'Express', 'MongoDB', 'System Design', 'DevOps'],
+    projects: ['LMS System', 'Textile E-commerce', 'Room Booking', 'Chapati Stall Website'],
+    achievements: ['Zero-downtime API migrations', '40% query optimization gains', 'Audit-ready cloud architecture'],
+    resumeUrl: '/resume.pdf',
+    resumeDownloadUrl: '/resume.pdf',
+    email: 'nisha@codeforge.dev',
     whatsapp: 'https://wa.me/15557654321',
     github: 'https://github.com/',
     linkedin: 'https://linkedin.com/'
@@ -33,47 +42,51 @@ export const developers = [
 
 export const projects = [
   {
-    title: 'Textile E-commerce Platform',
-    image: 'https://via.placeholder.com/600x360?text=Textile+E-commerce',
-    description: 'B2B + B2C platform for wholesale and retail textile operations.',
-    stack: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    demo: '#',
-    code: '#',
-    problem: 'Manual inventory and fragmented order management slowed growth.',
-    solution: 'Built a centralized platform with role-based dashboards and online payments.',
-    result: 'Order processing time dropped by 50% and monthly online revenue increased by 38%.'
+    title: 'Textile Commerce Platform',
+    image: 'https://picsum.photos/600/400?random=1',
+    fallbackImage: projectFallback,
+    description: 'B2B and B2C textile commerce system with inventory intelligence and analytics dashboards.',
+    tech: ['React', 'Node', 'MongoDB', 'Stripe'],
+    live: '#',
+    github: '#',
+    problem: 'Manual stock control and fragmented order handling reduced fulfillment speed.',
+    solution: 'Unified ordering, inventory sync, and real-time operational insights.',
+    result: 'Order throughput improved by 50% with better operational visibility.'
   },
   {
     title: 'Chapati Stall Website',
-    image: 'https://via.placeholder.com/600x360?text=Chapati+Stall',
-    description: 'Restaurant website with menu showcase and online inquiry forms.',
-    stack: ['React', 'Express', 'MongoDB'],
-    demo: '#',
-    code: '#',
-    problem: 'Local stall had no digital presence and lost walk-in opportunities.',
-    solution: 'Launched a mobile-first site with SEO-ready content and quick contact options.',
-    result: 'Footfall improved by 2.2x within 8 weeks of launch.'
+    image: 'https://picsum.photos/600/400?random=2',
+    fallbackImage: projectFallback,
+    description: 'Modern food business website with mobile-first browsing and conversion-focused sections.',
+    tech: ['React', 'Tailwind'],
+    live: 'https://supreme-chappathi.vercel.app/',
+    github: '#',
+    problem: 'No modern online presence for local customers and digital inquiries.',
+    solution: 'Built a responsive discovery-first site with high-clarity content architecture.',
+    result: 'Significant increase in digital engagement and inquiry volume.'
   },
   {
     title: 'LMS System',
-    image: 'https://via.placeholder.com/600x360?text=LMS+System',
-    description: 'Learning management portal with courses, quizzes, and analytics.',
-    stack: ['React', 'Node.js', 'MongoDB', 'JWT'],
-    demo: '#',
-    code: '#',
-    problem: 'Training teams lacked a unified system to track learner progress.',
-    solution: 'Developed an LMS with custom assessments and admin analytics dashboards.',
-    result: 'Completion rates improved by 41% and reporting became fully automated.'
+    image: 'https://picsum.photos/600/400?random=3',
+    fallbackImage: projectFallback,
+    description: 'Enterprise LMS with adaptive assessments, course progress, and analytics dashboards.',
+    tech: ['React', 'Node', 'MongoDB'],
+    live: 'https://lms-system-1u71.vercel.app/',
+    github: '#',
+    problem: 'Training programs lacked centralized learner progress tracking.',
+    solution: 'Developed a role-based LMS with instructor analytics and assessment flows.',
+    result: 'Improved learner completion rates and reduced reporting overhead.'
   },
   {
-    title: 'Room Booking Website',
-    image: 'https://via.placeholder.com/600x360?text=Room+Booking',
-    description: 'Hotel room booking app with availability calendar and payments.',
-    stack: ['React', 'Express', 'MongoDB', 'Razorpay'],
-    demo: '#',
-    code: '#',
-    problem: 'Reservations were managed in spreadsheets causing frequent double bookings.',
-    solution: 'Implemented real-time availability logic and booking confirmation workflows.',
-    result: 'Booking errors were nearly eliminated and staff support load dropped by 60%.'
+    title: 'Room Booking Platform',
+    image: 'https://picsum.photos/600/400?random=4',
+    fallbackImage: projectFallback,
+    description: 'Real-time room reservation platform with conflict prevention and payment support.',
+    tech: ['React', 'Express', 'MongoDB'],
+    live: '#',
+    github: '#',
+    problem: 'Frequent scheduling conflicts from manual booking workflows.',
+    solution: 'Implemented availability checks with transaction-aware booking confirmations.',
+    result: 'Booking errors reduced dramatically and support requests dropped.'
   }
 ];

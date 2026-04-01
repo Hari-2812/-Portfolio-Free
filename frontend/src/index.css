@@ -7,8 +7,10 @@
 :root {
   --bg: #0f0f0f;
   --bg-soft: #111111;
-  --neon-blue: #4cc9f0;
-  --neon-purple: #9d4edd;
+  --neon-blue: #4f8cff;
+  --neon-purple: #7b5cff;
+  --primary-start: #ff6a00;
+  --primary-end: #ff3c00;
 }
 
 * {
@@ -76,7 +78,7 @@ h4,
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #d4b7ff, #6cc9ff, #70f0ff, #d4b7ff);
+  background: linear-gradient(90deg, #ff6a00, #ff3c00, #8d7bff, #4f8cff, #ff6a00);
   background-size: 240% auto;
   -webkit-background-clip: text;
   background-clip: text;
