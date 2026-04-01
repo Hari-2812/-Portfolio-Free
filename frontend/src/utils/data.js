@@ -40,39 +40,51 @@ export const developers = [
 
 export const projects = [
   {
-    title: 'Textile',
+    title: 'Textile Commerce Platform',
     image: 'https://picsum.photos/600/400?random=1',
     fallbackImage: projectFallback,
     description: 'B2B and B2C textile commerce system with inventory intelligence and analytics dashboards.',
-    stack: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    demo: '#',
-    code: '#'
+    tech: ['React', 'Node', 'MongoDB', 'Stripe'],
+    live: '#',
+    github: '#',
+    problem: 'Manual stock control and fragmented order handling reduced fulfillment speed.',
+    solution: 'Unified ordering, inventory sync, and real-time operational insights.',
+    result: 'Order throughput improved by 50% with better operational visibility.'
   },
   {
-    title: 'Chapati',
-    image: 'https://supreme-chappathi.vercel.app/',
+    title: 'Chapati Stall Website',
+    image: 'https://picsum.photos/600/400?random=2',
     fallbackImage: projectFallback,
-    description: 'Modern restaurant experience with menu storytelling, conversion funnels, and local SEO.',
-    stack: ['React', 'Express', 'MongoDB'],
-    demo: '#',
-    code: '#'
+    description: 'Modern food business website with mobile-first browsing and conversion-focused sections.',
+    tech: ['React', 'Tailwind'],
+    live: 'https://supreme-chappathi.vercel.app/',
+    github: '#',
+    problem: 'No modern online presence for local customers and digital inquiries.',
+    solution: 'Built a responsive discovery-first site with high-clarity content architecture.',
+    result: 'Significant increase in digital engagement and inquiry volume.'
   },
   {
-    title: 'LMS',
-    image: 'https://lms-system-1u71.vercel.app/',
+    title: 'LMS System',
+    image: 'https://picsum.photos/600/400?random=3',
     fallbackImage: projectFallback,
-    description: 'Enterprise LMS with adaptive assessments, progress tracking, and analytics dashboards.',
-    stack: ['React', 'Node.js', 'MongoDB', 'JWT'],
-    demo: '#',
-    code: '#'
+    description: 'Enterprise LMS with adaptive assessments, course progress, and analytics dashboards.',
+    tech: ['React', 'Node', 'MongoDB'],
+    live: 'https://lms-system-1u71.vercel.app/',
+    github: '#',
+    problem: 'Training programs lacked centralized learner progress tracking.',
+    solution: 'Developed a role-based LMS with instructor analytics and assessment flows.',
+    result: 'Improved learner completion rates and reduced reporting overhead.'
   },
   {
-    title: 'Room',
+    title: 'Room Booking Platform',
     image: 'https://picsum.photos/600/400?random=4',
     fallbackImage: projectFallback,
-    description: 'Real-time room booking platform with conflict prevention and seamless payment flows.',
-    stack: ['React', 'Express', 'MongoDB', 'Razorpay'],
-    demo: '#',
-    code: '#'
+    description: 'Real-time room reservation platform with conflict prevention and payment support.',
+    tech: ['React', 'Express', 'MongoDB'],
+    live: '#',
+    github: '#',
+    problem: 'Frequent scheduling conflicts from manual booking workflows.',
+    solution: 'Implemented availability checks with transaction-aware booking confirmations.',
+    result: 'Booking errors reduced dramatically and support requests dropped.'
   }
 ];
