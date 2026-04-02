@@ -8,6 +8,7 @@ import SkillBars from '../components/SkillBars';
 import ProjectGrid from '../components/ProjectGrid';
 import CaseStudies from '../components/CaseStudies';
 import Services from '../components/Services';
+import AgencyTrustSections from '../components/AgencyTrustSections';
 import Testimonials from '../components/Testimonials';
 import CTASection from '../components/CTASection';
 
@@ -71,6 +72,7 @@ export default function Home() {
       <Reveal><ProjectGrid /></Reveal>
       <Reveal><CaseStudies /></Reveal>
       <Reveal><Services /></Reveal>
+      <AgencyTrustSections />
       <Reveal><Testimonials /></Reveal>
       <Reveal><CTASection /></Reveal>
     </>
