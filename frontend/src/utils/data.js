@@ -83,7 +83,7 @@ export const projects = [
     fallbackImage: projectFallback,
     description: 'Real-time room reservation platform with conflict prevention and payment support.',
     tech: ['React', 'Express', 'MongoDB'],
-    live: '#',
+    live: 'https://room-booking-six-gamma.vercel.app/',
     github: '#',
     problem: 'Frequent scheduling conflicts from manual booking workflows.',
     solution: 'Implemented availability checks with transaction-aware booking confirmations.',
